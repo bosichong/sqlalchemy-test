@@ -1,0 +1,9 @@
+[
+  "test_db.py::TestSqlAlchemy::()::test_1to1",
+  "test_db.py::TestSqlAlchemy::()::test_1tomore",
+  "test_db.py::TestSqlAlchemy::()::test_moretomore",
+  "test_db.py::TestSqlAlchemy::test_1to1",
+  "test_db.py::TestSqlAlchemy::test_1tomore",
+  "test_db.py::TestSqlAlchemy::test_crud",
+  "test_db.py::TestSqlAlchemy::test_moretomore"
+]
