@@ -2,11 +2,10 @@
 Author: J.sky bosichong@qq.com
 Date: 2022-11-14 08:55:37
 LastEditors: J.sky bosichong@qq.com
-LastEditTime: 2022-11-15 09:12:21
+LastEditTime: 2022-11-17 09:56:22
 FilePath: /sqlalchemy-test/database.py
 Description: 少年，我看你骨骼精奇，是万中无一的编程奇才，有个程序员大佬qq群[217840699]你加下吧!维护世界和平就靠你了
 '''
-# -*- coding: UTF-8 -*-
 
 import os,sys
 from sqlalchemy import create_engine

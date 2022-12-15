@@ -2,7 +2,7 @@
 Author: J.sky bosichong@qq.com
 Date: 2022-11-14 20:40:52
 LastEditors: J.sky bosichong@qq.com
-LastEditTime: 2022-11-15 09:12:44
+LastEditTime: 2022-12-15 09:49:38
 FilePath: /sqlalchemy-test/test_db.py
 少年，我看你骨骼精奇，是万中无一的编程奇才，有个程序员大佬qq群[217840699]你加下吧!维护世界和平就靠你了
 '''
@@ -56,7 +56,7 @@ class TestSqlAlchemy:
 
     def test_moretomore(self):
         user = self.db.query(User).filter(User.username == 'haha').first()
-        # 闯将文章
+        # 创建文章
         art1 = Article(title='我是王大锤',user_id=user.id)
         art2 = Article(title='小狗露西很可爱',user_id=user.id)
         art3 = Article(title='快乐的写代码',user_id=user.id)
@@ -93,7 +93,7 @@ class TestSqlAlchemy:
     
     def teardown_class(self):
         Base.metadata.drop_all(engine)
-        print('删除说有数据库表')
+        print('删除所有数据库表')
 
 if __name__ == '__main__':
     pytest.main(["-vs", "test_db.py"])
